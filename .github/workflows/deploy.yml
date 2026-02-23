@@ -46,7 +46,7 @@ jobs:
         with:
           path: './dist'
 
-  # ── 2단계: 배포 (빌드 성공 후 실행) ──
+  # ── 2단계: 배포 (빌드 성공 후 실행함) ──
   deploy:
     environment:
       name: github-pages
